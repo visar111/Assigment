@@ -1,0 +1,170 @@
+*{
+  font-family: "Roboto", sans-serif;
+}
+
+.hero-container {
+  background-color: #1f2937;
+}
+
+.hero-content-wrapper {
+  margin-left: 7.5rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: #F9FAF8;
+}
+
+#links {
+  margin-top: 1.375rem;
+}
+
+#links a {
+  text-decoration: none;
+  color: #E5E7EB;
+  font-size: 1.125rem;
+  margin-left: 0.625rem;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-main-content-container {
+  display: flex;
+  min-width: fit-content;
+  padding-bottom: 5rem;
+  margin-top: 2rem;
+}
+
+#hero-main-txt {
+  font-size: 3.063rem;
+  font-weight: 900;
+  color: #F9FAF8;
+  line-height: 3.5rem;
+}
+
+#hero-secondary-txt {
+  font-size: 1.125rem;
+  color: #E5E7EB;
+  margin-top: -2rem;
+}
+
+#signup-button {
+  background-color: #3882F6;
+  border: none;
+  border-radius: 10%;
+  padding: .4rem 1.6rem;
+  color: #E5E7EB;
+}
+
+#img-placeholder {
+  min-width:  fit-content;
+  max-height: 13.5rem;
+  text-align: center;
+  line-height: 15rem;
+  margin-top: 3rem;
+  background-color: gray;
+  margin-left: 3rem;
+  padding: 1rem 5rem;
+}
+
+main h2 {
+  text-align: center;
+}
+
+.img-container {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.img-container figure {
+  max-width: 7rem;
+}
+
+.img-with-subtext {
+  border: 5px solid rgba(79, 131, 228, 0.849);
+  border-radius: 15%;
+  min-width: 5rem;
+  min-height: 5rem;
+}
+
+.quote {
+  margin-top: 5rem;
+  background-color: #E5E7EB;
+  padding: 5rem 10rem;
+}
+
+.quote h2 { 
+  font-size: 2.25rem;
+  font-weight: 300;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote p {
+  font-size: 2.25rem;
+  font-weight: 800;
+  font-style: italic;
+  float: right;
+  margin-top: -2rem;
+}
+
+.call-to-action {
+  background-color: #3882F6;
+  display: flex;
+  margin-top: 5rem;
+  max-width: 55rem;
+  max-height: fit-content;
+  border-radius: 0.625rem;
+  padding: 1rem 5rem;
+}
+
+.text-wrapper {
+  max-width: 60%;
+  margin-left: 6rem;
+  line-height: .6rem;
+  padding: 1.2rem;
+}
+
+.text-wrapper h3 {
+  color: #F9FAF8;
+  font-size: 1.5rem;
+}
+
+.text-wrapper h4 {
+  color: #E5E7EB;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+
+.call-to-action button {
+  border: 2px solid white;
+  background-color: #3882F6;
+  height: 2.5rem;
+  width: 5rem;
+  border-radius: 7px;
+  margin-top: 55px;
+  margin-left: 60px;
+  color: #F9FAF8;
+}
+
+footer {
+  background-color: #1f2937;
+  margin: 0;
+  min-height: 4rem;
+  text-align: center;
+}
+
+footer h2 {
+  color: #F9FAF8;
+  padding-top: 1rem;
+}
